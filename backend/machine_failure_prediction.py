@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
-from frontend.modelling import Modelling
+from modelling import Modelling
 from utils import predict_failure
 
 data = pd.read_csv('machine_failure_prediction.csv')
